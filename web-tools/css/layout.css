@@ -1,0 +1,31 @@
+.zc-flex-r {
+    flex-direction : row;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.zc-flex-c {
+    flex-direction : column;
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : flex-start;
+}
+
+.zc-flex-item-r-0 {
+    flex: 0 0 auto;
+}
+
+.zc-flex-item-r-1 {
+    overflow: hidden;
+    flex    : 1 1 auto;
+}
+
+.zc-flex-item-c-0 {
+    flex: 0 0 auto;
+}
+
+.zc-flex-item-c-1 {
+    overflow: hidden;
+    flex    : 1 1 auto;
+}
